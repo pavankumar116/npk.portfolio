@@ -88,7 +88,7 @@
     function openProjectsPopup() {
       document.getElementById("projects-popup").style.display = "block";
 
-      fetch('projects.html')
+      fetch('Projects.html')
         .then(response => response.text())
         .then(data => {
           document.getElementById("projects-popup-body").innerHTML = data;
