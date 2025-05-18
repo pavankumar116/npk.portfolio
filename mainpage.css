@@ -1,0 +1,300 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(119, 117, 119);
+}
+/* start of header  */
+header {
+    background-image: url('background5.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire header */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+p {
+  font-size: 17px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.header-container {
+    padding-top: 100px;
+    padding-left: 300px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    z-index: 20;
+    
+}
+.round-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #f4f1f1;
+}
+.author-img {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 50%;
+    animation: fadeSlideDown 10s ease-out forwards;
+  opacity: 0;
+}
+.author-name {
+    font-size: 60px;
+    animation: fadeSlideDown 5s ease-out forwards;
+  opacity: 0;
+    /* padding-top: 100px; */
+    
+}
+.header-name-buttons {
+    font-size: 80px;
+    color: #f9f8f8;
+    align-items: end;
+}
+.header-buttons {
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 900px;
+    align-items: center;
+    align-content: center;
+    z-index: 20;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* end of header  */
+
+
+
+
+@keyframes fadeSlideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* start - about popup page css */
+/* Overlay container for popup */
+    #about-popup {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0,0,0,0.7);
+      z-index: 9999;
+    }
+
+    /* Popup content box */
+    #about-popup-content {
+      background: linear-gradient(to bottom right, #8cdfe3, #f6f8f7, #9476d0);
+      width: 80%;
+      max-width: 600px;
+      margin: 10% auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 20px black;
+      position: relative;
+      height: 70vh; /* Limit height to allow scrolling */
+  overflow-y: auto; /* Enables vertical scrolling */
+    }
+
+/* End - about popup page css */
+
+/* start - skills popup page css */
+/* Overlay container for popup */
+    #skills-popup {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0,0,0,0.7);
+      z-index: 9999;
+    }
+
+    /* Popup content box */
+    #skills-popup-content {
+      background: linear-gradient(to bottom right, #8cdfe3, #f6f8f7, #9476d0);
+      width: 80%;
+      max-width: 600px;
+      margin: 10% auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 20px black;
+      position: relative;
+      height: 70vh; /* Limit height to allow scrolling */
+  overflow-y: auto; /* Enables vertical scrolling */
+    }
+
+/* End - skills popup page css */
+
+
+
+/* start - Projects popup page css */
+/* Overlay container for popup */
+    #projects-popup {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0,0,0,0.7);
+      z-index: 9999;
+    }
+
+    /* Popup content box */
+    #projects-popup-content {
+      background: linear-gradient(to bottom right, #8cdfe3, #f6f8f7, #9476d0);
+      width: 80%;
+      max-width: 600px;
+      margin: 10% auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 20px black;
+      position: relative;
+      height: 70vh; /* Limit height to allow scrolling */
+  overflow-y: auto; /* Enables vertical scrolling */
+    }
+
+/* End - Projects popup page css */
+
+
+
+/* start - contact popup page css */
+/* Overlay container for popup */
+    #contact-popup {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0,0,0,0.7);
+      z-index: 9999;
+    }
+
+    /* Popup content box */
+    #contact-popup-content {
+      background: linear-gradient(to bottom right, #8cdfe3, #f6f8f7, #9476d0);
+      width: 80%;
+      max-width: 600px;
+      margin: 10% auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 20px black;
+      position: relative;
+      height: 70vh; /* Limit height to allow scrolling */
+  overflow-y: auto; /* Enables vertical scrolling */
+    }
+
+/* End - contact popup page css */
+
+
+
+/* start - achievements popup page css */
+/* Overlay container for popup */
+    #achievements-popup {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0,0,0,0.7);
+      z-index: 9999;
+    }
+
+    /* Popup content box */
+    #achievements-popup-content {
+      background: linear-gradient(to bottom right, #8cdfe3, #f6f8f7, #9476d0);
+      width: 80%;
+      max-width: 600px;
+      margin: 10% auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 20px black;
+      position: relative;
+      height: 70vh; /* Limit height to allow scrolling */
+  overflow-y: auto; /* Enables vertical scrolling */
+    }
+
+/* End - achievements popup page css */
+
+
+
+/* start - skills css */
+
+.skill {
+      background: #fff;
+      margin-bottom: 10px;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: relative;
+    }
+    .skill button {
+      position: absolute;
+      right: 15px;
+      top: 7px;
+      font-size: 18px;
+      padding: 5px 10px;
+      cursor: pointer;
+      border: none;
+      background: #007bff;
+      color: white;
+      border-radius: 4px;
+    }
+    .description {
+      margin-top: 10px;
+      display: none;
+      color: #444;
+    } 
+
+
+/* innerskill */
+
+.innerskill {
+      background: #fff;
+      margin-bottom: 10px;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: relative;
+    }
+    .innerskill button {
+      position: absolute;
+      right: 15px;
+      top: 7px;
+      font-size: 18px;
+      padding: 5px 10px;
+      cursor: pointer;
+      border: none;
+      background: #040e0f;
+      color: white;
+      border-radius: 4px;
+    }
+    .innerdescription {
+      margin-top: 10px;
+      display: none;
+      color: #444;
+    } 
+/*end - skills css */

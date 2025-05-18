@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mainheading {
+            text-align: center;
+            animation: fadeSlideDown 3s ease-out forwards;
+  opacity: 0;
+        }
+        ul.no-dots {
+    list-style-type: none;
+    padding-left: 0; /* optional: removes default indent */
+  }
+         @keyframes fadeSlideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+    </style>
+</head>
+<body>
+    <h2 class="mainheading"><b>My Projects 💻</b></h2><br>
+    
+    <div id="projects"></div>
+
+    
+<br><br>
+  <footer>
+        <b><p><sup>*</sup> If No projects displayed....Please refresh the page and try again...</p></b>
+  </footer>
+</body>
+</html>

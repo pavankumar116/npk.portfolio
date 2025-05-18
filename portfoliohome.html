@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="mainpage.css">
+    <link rel="stylesheet" href="mainpageanime.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+
+
+    <!-- Header - image , name , buttons  -->
+    <div class="header-container">
+
+             <img src="npk_pic.jpg" alt="npk_img" class="round-img">
+             <div class="header-name-buttons">
+                <h1 class="author-name"><b>Pavan Kumar Nallagonda</b></h1>
+                
+            </div>
+        </div>
+
+    <div class="header-buttons">
+                <nav>
+                <ul>
+                    <!-- Button to show popup -->
+                <li><button onclick="openAboutPopup()" type="button" class="btn btn-primary btn-lg" >Profile</button></li>
+                <li><button onclick="openSkillsPopup()" type="button" class="btn btn-primary btn-lg" >Skills</button></li>
+                <li><button onclick="openProjectsPopup()" type="button" class="btn btn-primary btn-lg">Projects</button></li>
+                <li><button onclick="openAchievementsPopup()" type="button" class="btn btn-primary btn-lg">Achievements</button></li>
+                <li><button onclick="openContactPopup()" type="button" class="btn btn-primary btn-lg">Connect</button></li>
+                
+                </ul>
+                </nav>
+        </div>
+
+    <!-- start - About Popup modal -->
+    <div id="about-popup">
+    <div id="about-popup-content">
+    <!-- <span class="close-btn" onclick="closePopup()">×</span> -->
+    <div id="about-popup-body">Loading...</div>
+    </div>
+    </div>
+   <!-- end - About Popup modal -->
+
+
+   <!-- start - projects Popup modal -->
+    <div id="projects-popup">
+    <div id="projects-popup-content">
+    <!-- <span class="close-btn" onclick="closePopup()">×</span> -->
+    <div id="projects-popup-body">Loading...</div>
+    </div>
+    </div>
+   <!-- end - projects Popup modal -->
+
+    <!-- start - achievements Popup modal -->
+    <div id="achievements-popup">
+    <div id="achievements-popup-content">
+    <!-- <span class="close-btn" onclick="closePopup()">×</span> -->
+    <div id="achievements-popup-body">Loading...</div>
+    </div>
+    </div>
+   <!-- end - achievements Popup modal -->
+
+
+
+
+   <!-- start - contact Popup modal -->
+    <div id="contact-popup">
+    <div id="contact-popup-content">
+    <!-- <span class="close-btn" onclick="closePopup()">×</span> -->
+    <div id="contact-popup-body">Loading...</div>
+    </div>
+    </div>
+   <!-- end - projects Popup modal -->
+
+
+   <!-- start - Skills Popup modal -->
+    <div id="skills-popup">
+    <div id="skills-popup-content">
+    <!-- <span class="close-btn" onclick="closePopup()">×</span> -->
+    <div id="skills-popup-body">Loading...</div>
+    </div>
+    </div>
+   <!-- end - About Popup modal -->
+
+    <!-- Header - image , name , buttons  -->
+    
+    <!-- Animations - spcae , commets  -->
+
+    <div class="space">
+    <div class="nebula"></div>
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+  </div>
+  <div class="typewriter">
+  <span id="type-text"></span>
+    </div>
+<div class="comet"></div>
+<div class="comet comet2"></div>
+<div class="comet comet3"></div>
+
+    <!-- Animations - spcae , commets  -->
+
+
+
+<script src="mainpageanime.js"></script>
+<script src="mainpage.js"></script>
+</body>
+</html>

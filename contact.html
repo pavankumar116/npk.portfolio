@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+
+    .mainheading {
+            text-align: center;
+            animation: fadeSlideDown 3s ease-out forwards;
+  opacity: 0;
+        }
+    
+    
+    .contact-item {
+      margin: 15px 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 20px;
+    }
+    .contact-item i {
+      color: #0077b5; /* Default LinkedIn blue */
+    }
+    .contact-item.github i { color: #333; }
+    .contact-item.instagram i { color: #E1306C; }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+
+     @keyframes fadeSlideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+     }
+  </style>
+</head>
+<body>
+    
+    <div class="contact-section">
+    <h2 class="mainheading"><b>Connect with Me 🔗</b></h2><br>
+
+    <div class="contact-item linkedin">
+      <i class="fab fa-linkedin fa-lg"></i>
+      <span><a href="https://www.linkedin.com/in/pavankumar116/" target="_blank">@pavankumar116</a></span> 
+      
+    </div>
+
+    <div class="contact-item github">
+      <i class="fab fa-github fa-lg"></i>
+      <span><a href="https://github.com/pavankumar116" target="_blank">@pavankumar116</a></span> 
+
+    </div>
+
+    <div class="contact-item instagram">
+      <i class="fab fa-instagram fa-lg"></i>
+      <span><a href="https://instagram.com/pavankumar_99_" target="_blank">@pavankumar_99_</a></span>
+      
+    </div>
+
+    <div class="contact-item">
+      <i class="fas fa-map-marker-alt fa-lg" style="color:rgb(24, 124, 51);"></i>
+      <span>@Malikipuram, Andhra Pradesh, India.</span>
+    </div>
+  </div>
+  <br>
+  <footer>
+    <p><b><sup>*</sup>Click on the user name to access link.</b></p>
+  </footer>
+
+</body>
+</html>
